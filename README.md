@@ -25,41 +25,4 @@ Install dependencies:
 pip install python-nmap
 
 
-Usage
-Clone the repository:
 
-bash
-نسخ الكود
-git clone https://github.com/yourusername/memohawk.git
-cd memohawk
-
-un the script:
-
-bash
-نسخ الكود
-sudo python3 memohawk.py
-
-Example Output
-Network Scan:
-
-yaml
-نسخ الكود
-Scanning target: 192.168.1.0/24
-Host: 192.168.1.1
-State: up
-Protocol: tcp
-Port: 80, State: open
-...
-Password Strength Checker:
-
-less
-نسخ الكود
-Checking password strength...
-Password Strength: Strong
-Random MAC Address Generator:
-
-less
-نسخ الكود
-Generating random MAC address...
-Generated MAC Address: 02:00:00:4a:6b:1c
-MAC address changed successfully to 02:00:00:4a:6b:1c
